@@ -1,0 +1,30 @@
+package com.Yummy;
+
+
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+
+
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+	ApplicationContext context=	SpringApplication.run(DemoApplication.class, args);
+//	UserRepository userRepository= context.getBean(UserRepository.class);
+//	User user=new User(2,"piy","ldh");
+//	User user1= userRepository.save(user);                                 saveAll-Iterable<> object
+//	System.out.println(user1);
+	
+	
+	
+//	Optional<User> optional= userRepository.findById(2);                    findAll-Iterable<> object
+//	User user= optional.get();                                              findById-optional<> object
+//	user.setCity("hyd");
+//	User user1=userRepository.save(user);
+//	System.out.println(user1);
+	}
+
+}

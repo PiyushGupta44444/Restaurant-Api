@@ -1,0 +1,12 @@
+.display-1{
+	color:blue;
+	margin:100px;
+	text-align: center;
+	font-weight: 500;
+}
+.logo{
+	margin-left:50px;
+    border-radius:20%;
+    height:60px;
+    width:70px;
+}
